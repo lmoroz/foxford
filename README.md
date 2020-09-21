@@ -10,6 +10,6 @@
   1.3 или [Tampermonkey если у вас *Opera*](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)  
   1.4 или [Tampermonkey если у вас *Яндекс.Браузер*](https://chrome.google.com/webstore/detail//dhdgffkkebhmkfjojejmpbldmpobfkfo)  
 
-2. Нажмите на ссылку --> [**Установить this script**](https://raw.githubusercontent.com/lmoroz/foxford/master/foxford.user.js)
+2. Нажмите на ссылку --> [**Установить расширение**](https://raw.githubusercontent.com/lmoroz/foxford/master/foxford.user.js)
 
 3. В открывшейся вкладке нажмите «Установить» (Install)
