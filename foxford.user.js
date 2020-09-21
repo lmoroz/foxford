@@ -2,6 +2,7 @@
 // @name         Foxford fill Teachers
 // @description  Расширение для сайта foxford.ru: выводит ИМЕНА ПРЕПОДАВАТЕЛЕЙ и даты начала-окончания курсов в списке программ обучения на https://foxford.ru/dashboard
 // @namespace    https://github.com/lmoroz/foxford
+// @downloadURL  https://raw.githubusercontent.com/lmoroz/foxford/master/foxford.user.js)
 // @version      0.1
 // @author       Larisa Morozhnikova
 // @match        https://foxford.ru/dashboard
