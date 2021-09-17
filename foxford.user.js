@@ -2,7 +2,8 @@
 // @name         Foxford schedule time adjustment
 // @namespace    https://github.com/lmoroz/foxford
 // @version      0.1
-// @author       Larisa Morozhnikova
+// @author       © Морожникова Лариса, Иркутск, 2021
+// @downloadURL  https://raw.githubusercontent.com/lmoroz/foxford/master/foxford.user.js
 // @match        https://foxford.ru/dashboard*
 // @icon         https://www.google.com/s2/favicons?domain=foxford.ru
 // @require      https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js
@@ -120,6 +121,8 @@ function reflowDelay() {
         const calendarCalendarCard = document.querySelectorAll('div[data-qa="calendar-card_Root"]');
         const calendarTableBody = document.querySelector('div[data-qa="calendar-layout_Styled.Root"]');
         const calendarTimeLine = document.querySelector('div[data-qa="table_Styled.Line"]');
+        const calendarTimeZoneText = document.querySelector('div[data-qa="moscow-time_Root"] div[class*="Text_root"]');
+        if (calendarTimeZoneText) calendarTimeZoneText.innerHTML = Intl.DateTimeFormat().resolvedOptions().timeZone;
         if (calendarTimeLine) { setHoursIds(); repostitionTimeLine(); }
         if (calendarTableBody && calendarCellElements.length && calendarTimeElements.length === 24 && calendarCalendarCard.length) {
             console.log(`calendarTimeElements = `, calendarTimeElements.length);
