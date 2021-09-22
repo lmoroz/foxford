@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Foxford schedule time adjustment
 // @namespace    https://github.com/lmoroz/foxford
-// @version      0.1
+// @version      0.3
 // @author       © Морожникова Лариса, Иркутск, 2021
 // @downloadURL  https://raw.githubusercontent.com/lmoroz/foxford/master/foxford.user.js
+// @updateURL    https://raw.githubusercontent.com/lmoroz/foxford/master/foxford.user.js
 // @match        https://foxford.ru/dashboard*
 // @icon         https://www.google.com/s2/favicons?domain=foxford.ru
 // @require      https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js
